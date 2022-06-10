@@ -13,7 +13,7 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 @Entity
-@Table(name="Employee1")
+@Table(name="employee1")
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="emp_type", discriminatorType=DiscriminatorType.STRING )
 @DiscriminatorValue("EMP")

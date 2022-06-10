@@ -10,10 +10,10 @@ public class Client {
 	{
 		StudentService obj= new StudentServiceImpl();
 		Student student = new Student();
-		//create
-		student.setStudentId(101);
-		student.setName("Pratyenchya");
-		obj.addStudent(student);
+		/*//create
+		student.setStudentId(104);
+		student.setName("sakshi");
+		obj.addStudent(student);*/
 		
 		/*//retrive
 		student=obj.findStudentById(101);
@@ -26,13 +26,9 @@ public class Client {
 	    obj.updateStudent(student);*/
 		
 		//delete
-		/*student=obj.findStudentById(102);
-		obj.removeStudent(student);*/
+		student=obj.findStudentById(102);
+		obj.removeStudent(student);
 	    
-	    
-		
-		
-		
-	}
+    }
 
 }
